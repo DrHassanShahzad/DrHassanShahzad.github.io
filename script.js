@@ -1,4 +1,4 @@
-const images = ["images/fluid1.jpg","images/fluid2.jpg","images/fluid3.jpg"];
+const images = ["images/fluid1.jpg","images/fluid2.png","images/fluid3.jpg"];
 let i = 0;
 
 function changeBackground(){
@@ -11,4 +11,5 @@ function changeBackground(){
 }
 
 setInterval(changeBackground, 3000);
+
 changeBackground();
